@@ -5,8 +5,7 @@
 }
 
 
-/* PROF NOTE: There are multiple "states" for a link– to color all of them the same
-              we can use a rule like the following: */
+
 a, a:visited {
   color: #000;
   text-deocarion: none; /* Removes underline */
@@ -214,10 +213,12 @@ a, a:visited {
 }
 
 .quotes {
-font-size: 80px;
+font-size: 60px;
 font-family: 'Days One', sans-serif;
 display: inline-block;
-
+margin: 0px;
+padding: 0px; /* Removing extra margin / padding from Quotes */
+line-height: 30px; /* Giving a fixed line height so that the special large "quotes" don't add extra space on their lines */
 }
 
 .reportbox {
@@ -236,9 +237,15 @@ display: inline-block;
 #quote {
   font-family: 'Days One', sans-serif;
   font-size: 25px;
+  line-height: 30px; /* Giving a fixed line height so that the special large "quotes" don't add extra space on their lines */
   width: 39%;
   padding-right: 25px;
 
+}
+
+#mainQuoteText {
+  margin: 0px;
+  padding: 0px;
 }
 
 #mapcolumn {
